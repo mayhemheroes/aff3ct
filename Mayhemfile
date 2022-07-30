@@ -1,5 +1,5 @@
 project: aff3ct
-target: aff3ct-GIT-NOTFOUND
+target: aff3ct
 
 cmds:
   - cmd: /install/bin/aff3ct -C UNCODED -K 1 -N 1 -m 1.0 -M 1.0 -F 1 --src-type USER --src-path @@
