@@ -1,0 +1,7 @@
+project: aff3ct
+target: aff3ct-git-notfound
+
+cmds:
+  - cmd: /aff3ct-GIT-NOTFOUND -C UNCODED -K 1 -N 1 -m 1.0 -M 1.0 -F 1 --src-type USER --src-path @@
+    env:
+      DISABLE_SMOKETEST: '1'

@@ -1,0 +1,6 @@
+project: aff3ct
+target: esn0-to-sigma
+
+cmds:
+  - cmd: /fuzz_esn0_to_sigma
+    libfuzzer: true
