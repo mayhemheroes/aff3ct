@@ -12,3 +12,4 @@ RUN clang++ /repo/mayhem/fuzz_esn0_to_sigma.cpp -L/repo/build/lib -laff3ct-GIT-N
 
 FROM ubuntu:22.04 as package
 COPY --from=builder /fuzz /fuzz_esn0_to_sigma
+COPY --from=builder /repo/build/bin/aff3ct-GIT-NOTFOUND /
